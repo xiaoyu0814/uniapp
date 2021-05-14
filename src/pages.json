@@ -1,0 +1,302 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	
+		{
+			"path": "pages/index/index",
+			"style": {
+				
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "pie",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": {
+						"backgroundColorTop": "#1077f5",
+						"buttons": [{
+								"fontSrc": "/static/iconfont.ttf",
+								"text": "\ue635",
+								"fontSize": "24",
+								"float": "left",
+								"color": "#000000",
+								"background": "rgba(0,0,0,1)",
+								"width":"60"
+							},
+							{
+								"fontSrc": "/static/iconfont.ttf",
+								"text": "\ue634",
+								"fontSize": "24",
+								"background": "rgba(0,0,0,0)",
+								"color": "#000000",
+								"width":"60"
+
+							}
+						],
+						"pullToRefresh": {
+							"style": "circle",
+							"offset": "70px"
+						},
+						"searchInput": {
+							"borderRadius": "17px",
+							"placeholder": "请输入搜索内容",
+							"backgroundColor": "rgba(233,239,248,1)",
+							"placeholderColor": "rgba(108, 125, 149,1)",
+							"disabled": true
+						}
+					},
+					"scrollIndicator":"none"
+				}
+
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarBackgroundColor": "#1077f5",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "我的",
+				"transparentTitle": "auto",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/find/index",
+			"style": {
+				
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "发现",
+				"enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+			}
+		},
+		{
+		    "path" : "pages/login/phoneLogin",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+		    }
+		},
+		{
+			"path": "pages/find/components/AI",
+			"style": {
+				"navigationBarTitleText": "",
+				"transparentTitle": "auto"
+			}
+		},
+		{
+			"path": "pages/find/components/advertisement",
+			"style": {
+				"navigationBarTitleText": "",
+				"transparentTitle": "auto"
+			}
+		},
+		{
+            "path" : "pages/index/search-page",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"backgroundColorTop": "#1077f5",
+						"searchInput": {
+							"borderRadius": "17px",
+							"placeholder": "请输入搜索内容",
+							"backgroundColor": "rgba(233, 239, 248, 1)",
+							"placeholderColor": "rgba(108, 125, 149,1)",
+							"autoFocus":true
+						}
+					}
+				}
+            }
+        },
+		{
+            "path" : "pages/index/news-page",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+            "path" : "pages/index/live-streaming",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "直播",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+            "path" : "pages/mine/components/contact",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+            "path" : "pages/find/components/hotActivity",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+		    "path" : "pages/login/userLogin",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+		    }
+		},
+		{
+		    "path" : "pages/login/resetPassword",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+		    }
+		},
+		{
+		    "path" : "pages/login/setPassword",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+		    }
+		}
+        ,{
+            "path" : "pages/mine/components/editProfile",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": false
+				}
+		},
+        {
+            "path" : "pages/index/details-pages",
+            "style" :
+            {
+                "navigationBarTitleText": "资讯详情",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/mine/components/collection",
+		    "style" :
+		    {
+		        "navigationBarTitleText": "收藏列表",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/mine/components/about",
+		    "style" :
+		    {
+		        "navigationBarTitleText": "关于我们",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/mine/components/ImportCalendar",
+		    "style" :
+		    {
+		        "navigationBarTitleText": "签到打卡",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+            "path" : "pages/others/collect",
+            "style" :
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/find/components/link",
+		    "style" :
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/find/components/richText",
+		    "style" :
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/index/news-details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+			"path": "pages/guide-page/guide-page",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none"
+				}
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "pie-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#62697C",
+		"selectedColor": "#3A69F1",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabBar/index.png",
+				"selectedIconPath": "static/tabBar/index_active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/find/index",
+				"iconPath": "static/tabBar/find.png",
+				"selectedIconPath": "static/tabBar/find_active.png",
+				"text": "发现"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/tabBar/mine.png",
+				"selectedIconPath": "static/tabBar/mine_active.png",
+				"text": "我的"
+			}
+		],
+		"condition": { //模式配置，仅开发期间生效
+			"current": 29,
+			"list": [{
+				"name": "swiper", //模式名称
+				"path": "pages/auction-detailsed/auction-detailsed", //启动页面，必选
+				"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			}]
+		}
+	}
+}
